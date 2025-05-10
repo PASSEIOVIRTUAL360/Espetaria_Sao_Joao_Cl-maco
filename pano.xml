@@ -1,255 +1,257 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.1.7" apprev="20981" start="node8" hassounds="0">
+<tour appversion="7.1.7" hassounds="0" start="node8" apprev="20981">
   <panorama id="node8">
-    <input levelingroll="0" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node8/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="-4.16533" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62415263" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:41" source="" heading="0" nodeid="node8" tags="OFII" longitude="-46.59219605" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node9}" target="$fwd" id="Point01" pan="5.46757" skinid="ht_node" description="" tilt="0" distance="3.94536"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:41" comment="" latitude="-23.62415263" heading="-4.16533" tags="OFII" title="Espetaria São João Clímaco" nodeid="node8" author="" customnodeid="" copyright="" source="" longitude="-46.59219605"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node9}" distance="3.94536" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="1.30224"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node9">
-    <input levelingroll="0" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node9/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="2.91291" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62411731" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:47" source="" heading="0" nodeid="node9" tags="OFII" longitude="-46.59219974" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node8}" target="$fwd" id="Point01" pan="-174.532" skinid="ht_node" description="" tilt="0" distance="3.94536"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node10}" target="$fwd" id="Point02" pan="1.4879" skinid="ht_node" description="" tilt="0" distance="3.02107"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:47" comment="" latitude="-23.62411731" heading="2.91291" tags="OFII" title="Espetaria São João Clímaco" nodeid="node9" author="" customnodeid="" copyright="" source="" longitude="-46.59219974"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node8}" distance="3.94536" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="-171.62"/>
+      <hotspot description="" url="{node10}" distance="3.02107" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="4.40081"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node10">
-    <input levelingroll="0" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node10/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="9.67824">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="9.67824" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62409015" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:48" source="" heading="9.67824" nodeid="node10" tags="OFII" longitude="-46.59220051" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node9}" target="$fwd" id="Point01" pan="-168.834" skinid="ht_node" description="" tilt="0" distance="3.02107"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node11}" target="$fwd" id="Point02" pan="0.29419" skinid="ht_node" description="" tilt="0" distance="3.20528"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node6}" target="$fwd" id="Point03" pan="-54.8027" skinid="ht_node" description="" tilt="0" distance="3.407"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:48" comment="" latitude="-23.62409015" heading="9.67824" tags="OFII" title="Espetaria São João Clímaco" nodeid="node10" author="" customnodeid="" copyright="" source="" longitude="-46.59220051"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node9}" distance="3.02107" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="-168.834"/>
+      <hotspot description="" url="{node11}" distance="3.20528" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="0.29419"/>
+      <hotspot description="" url="{node6}" distance="3.407" title="Espetaria São João Clímaco" skinid="ht_node" id="Point03" target="$fwd" tilt="0" pan="-54.8027"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node4">
-    <input levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="14.5029">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="-6.68795" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62396698" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:29" source="" heading="14.5029" nodeid="node4" tags="OFII" longitude="-46.59218073" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node3}" target="$fwd" id="Point01" pan="175.9" skinid="ht_node" description="" tilt="0" distance="3.6406"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:29" comment="" latitude="-23.62396789" heading="-6.68795" tags="OFII" title="Espetaria São João Clímaco" nodeid="node4" author="" customnodeid="" copyright="" source="" longitude="-46.59219246"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node3}" distance="3.34936" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="-186.113"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="0" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62399801" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:29" source="" heading="0" nodeid="node3" tags="OFII" longitude="-46.59219213" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node5}" target="$fwd" id="Point01" pan="-109.139" skinid="ht_node" description="" tilt="0" distance="3.43567"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node4}" target="$fwd" id="Point02" pan="-18.6031" skinid="ht_node" description="" tilt="0" distance="3.6406"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:29" comment="" latitude="-23.62399801" heading="0" tags="OFII" title="Espetaria São João Clímaco" nodeid="node3" author="" customnodeid="" copyright="" source="" longitude="-46.59219213"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node5}" distance="3.43567" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="-109.139"/>
+      <hotspot description="" url="{node4}" distance="3.34936" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="0.575115"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node2">
-    <input levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="38.8758">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="38.8758" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62403621" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:29" source="" heading="38.8758" nodeid="node2" tags="OFII" longitude="-46.59217894" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node5}" target="$fwd" id="Point02" pan="7.51841" skinid="ht_node" description="" tilt="0" distance="3.65511"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node11}" target="$fwd" id="Point01" pan="188.306" skinid="ht_node" description="" tilt="0" distance="3.29317"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:29" comment="" latitude="-23.62403621" heading="38.8758" tags="OFII" title="Espetaria São João Clímaco" nodeid="node2" author="" customnodeid="" copyright="" source="" longitude="-46.59217894"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node5}" distance="3.65511" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="7.51841"/>
+      <hotspot description="" url="{node11}" distance="3.29317" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="188.306"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node5">
-    <input levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="35.7221">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="35.7221" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62400814" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:41" source="" heading="35.7221" nodeid="node5" tags="OFII" longitude="-46.59216027" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node2}" target="$fwd" id="Point01" pan="184.365" skinid="ht_node" description="" tilt="0" distance="3.65511"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node3}" target="$fwd" id="Point02" pan="106.583" skinid="ht_node" description="" tilt="0" distance="3.43567"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:41" comment="" latitude="-23.62400814" heading="35.7221" tags="OFII" title="Espetaria São João Clímaco" nodeid="node5" author="" customnodeid="" copyright="" source="" longitude="-46.59216027"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node2}" distance="3.65511" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="184.365"/>
+      <hotspot description="" url="{node3}" distance="3.43567" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="106.583"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node6">
-    <input levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="0">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="30.4437" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62407695" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:42" source="" heading="0" nodeid="node6" tags="OFII" longitude="-46.59217033" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node10}" target="$fwd" id="Point01" pan="115.519" skinid="ht_node" description="" tilt="0" distance="3.407"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:42" comment="" latitude="-23.62407695" heading="30.4437" tags="OFII" title="Espetaria São João Clímaco" nodeid="node6" author="" customnodeid="" copyright="" source="" longitude="-46.59217033"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node10}" distance="3.407" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="145.963"/>
+      <hotspot description="" url="{node7}" distance="1.84147" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="-10.0183"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node7">
-    <input levelingroll="0" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="24.9213">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="24.9213" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62406435" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:41" source="" heading="24.9213" nodeid="node7" tags="OFII" longitude="-46.59215860" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node11}" target="$fwd" id="Point01" pan="110.442" skinid="ht_node" description="" tilt="0" distance="3.75849"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:41" comment="" latitude="-23.62406435" heading="24.9213" tags="OFII" title="Espetaria São João Clímaco" nodeid="node7" author="" customnodeid="" copyright="" source="" longitude="-46.59215860"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node11}" distance="3.75849" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="110.442"/>
+      <hotspot description="" url="{node6}" distance="1.84147" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="164.459"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <panorama id="node11">
-    <input levelingroll="0" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" leveltilesize="510" levelbias="0.400" height="1488" levelbiashidpi="1.000" levelingpitch="0" width="1488">
-      <level height="1488" predecode="0" width="1488" preload="0"/>
-      <level height="744" predecode="0" width="744" preload="0"/>
-      <level height="372" predecode="1" width="372" preload="1"/>
-      <preview strip="1" color="0x808080"/>
+    <input levelbiashidpi="1.000" overlap="1" levelingpitch="0" width="1488" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" height="1488" leveltilesize="510" levelingroll="0" levelbias="0.400">
+      <level predecode="0" height="1488" preload="0" width="1488"/>
+      <level predecode="0" height="744" preload="0" width="744"/>
+      <level predecode="1" height="372" preload="1" width="372"/>
+      <preview color="0x808080" strip="1"/>
     </input>
-    <view fovmode="2" pannorth="37.5506">
-      <start projection="4" pan="0" fov="100" tilt="0"/>
-      <flyin projection="9" pan="0" fov="170" tilt="-90"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max pan="360" fov="140" fovstereographic="330" tilt="90" scaletofit="1" fovfisheye="360"/>
+    <view pannorth="37.5506" fovmode="2">
+      <start projection="4" fov="100" tilt="0" pan="0"/>
+      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" tilt="90" fovstereographic="330" pan="360"/>
     </view>
-    <userdata info="" latitude="-23.62406171" copyright="" title="Espetaria São João Clímaco" datetime="2025:05:10 02:37:48" source="" heading="37.5506" nodeid="node11" tags="OFII" longitude="-46.59219538" author="" customnodeid="" description="" comment=""/>
-    <hotspots height="20" wordwrap="1" width="180" smoothmovement="0">
-      <label backgroundcolor="0xffffff" backgroundalpha="1" bordercolor="0x000000" background="1" enabled="1" border="1" borderradius="1" borderalpha="1" height="20" wordwrap="1" textalpha="1" width="180" textcolor="0x000000"/>
-      <polystyle backgroundcolor="0x0000ff" borderalpha="1" backgroundalpha="0.25098" bordercolor="0x0000ff" mode="0" handcursor="1"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node10}" target="$fwd" id="Point01" pan="208.167" skinid="ht_node" description="" tilt="0" distance="3.20528"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node2}" target="$fwd" id="Point02" pan="6.98127" skinid="ht_node" description="" tilt="0" distance="3.29317"/>
-      <hotspot title="Espetaria São João Clímaco" url="{node7}" target="$fwd" id="Point03" pan="-56.929" skinid="ht_node" description="" tilt="0" distance="3.75849"/>
+    <userdata description="" info="" datetime="2025:05:10 02:37:48" comment="" latitude="-23.62406171" heading="37.5506" tags="OFII" title="Espetaria São João Clímaco" nodeid="node11" author="" customnodeid="" copyright="" source="" longitude="-46.59219538"/>
+    <hotspots smoothmovement="0" height="20" wordwrap="1" width="180">
+      <label bordercolor="0x000000" border="1" wordwrap="1" textalpha="1" width="180" backgroundcolor="0xffffff" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" background="1" borderalpha="1" enabled="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1" mode="0" handcursor="1" backgroundcolor="0x0000ff"/>
+      <hotspot description="" url="{node10}" distance="3.20528" title="Espetaria São João Clímaco" skinid="ht_node" id="Point01" target="$fwd" tilt="0" pan="208.167"/>
+      <hotspot description="" url="{node2}" distance="3.29317" title="Espetaria São João Clímaco" skinid="ht_node" id="Point02" target="$fwd" tilt="0" pan="6.98127"/>
+      <hotspot description="" url="{node7}" distance="3.75849" title="Espetaria São João Clímaco" skinid="ht_node" id="Point03" target="$fwd" tilt="0" pan="-56.929"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" enabled="1" softedge="0" zoomin="0" blendcolor="0x000000" zoomspeed="2" zoomoutpause="1" type="crossdissolve" delay="none" blendtime="1" zoomafterinfov="140" zoomfov="40" zoomafteroutfov="40"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" clipsrandom="0" animsequence="Animation01"/>
-    <control zoomcentercursor="1" contextprojections="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" lockedwheel="0" rubberband="0" invertcontrol="1" dblclickfullscreen="0" lockedkeyboard="0" speedwheel="1" invertwheel="0" contextfullscreen="1" sensitivity="8" contextvr="1" hideabout="0"/>
+    <transition type="mesh" delay="none" zoomspeed="2" zoomafteroutfov="40" zoomout="0" zoomfov="40" zoomoutpause="1" blendcolor="0x000000" blendtime="1" softedge="0" zoomin="7" zoomafterinfov="140" enabled="1"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" hideabout="0" lockedkeyboard="0" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" sensitivity="8" contextprojections="0" zoomcentercursor="1" dblclickfullscreen="0" lockedwheel="0" rubberband="0" contextfullscreen="1" contextvr="1" invertwheel="0" speedwheel="1"/>
   </panorama>
   <masternode>
-    <userdata comment="" copyright="" title="" description="" tags="" author=""/>
+    <userdata description="" title="" comment="" author="" tags="" copyright=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
